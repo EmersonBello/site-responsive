@@ -1,0 +1,75 @@
+@media(min-width: 1093px) {
+  header .btn-menu-mob{
+    display: none; 
+  } 
+}
+@media(max-width: 1092px) {
+    header .menu-desktop{
+      display: none;
+    } 
+    header .btn-menu-mob{
+      display: block;
+      position: relative;
+      z-index: 99999999999999999;
+    }
+    .logo:nth-of-type(1){
+      display: none;
+    }
+}
+@media(max-width: 540px) {
+ /* configurando o titulo/inicio */
+  .pagina-inicial .text-inicial h1{
+    font-size: 1em;
+    line-height: 20px;
+  }
+  .pagina-inicial .text-inicial p{
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .pagina-inicial .text-inicial p span{
+    display: inline;
+  }
+  /* --estilo das apresentaçoes-- */
+  /* estilizar os blocos de itens */
+  .apresentacao .itens-container{
+    flex-direction: column;
+  }
+  /* estilizando as imagens */
+  .apresentacao .itens-container .img-itens img{
+    width: 100%;
+    height: auto;
+  }
+  .apresentacao .itens-container .txt-itens p{
+    margin-bottom: 15px;
+  }
+ /* estilo da fonte do texto */
+ .fonte-txt{
+    display: none;
+  }
+  .apresentacao .itens-container .item-1{
+    order: 1;
+ }
+ .apresentacao .itens-container .item-2{
+  order: 0;
+ }
+ /* --rodapê-- */
+/* parte do meio/links */
+footer .middle-footer {
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+footer .middle-footer ul li {
+  margin: 5px 0; 
+}
+footer .middle-footer button {
+  width: 80%; 
+  margin: 15px; 
+}
+/* Parte de baixo */
+footer .bottom-footer {
+text-align: center; 
+}
+footer .bottom-footer p {
+font-size: 0.9em; 
+}
+}
