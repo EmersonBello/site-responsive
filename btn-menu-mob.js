@@ -5,6 +5,7 @@ let line2 = document.querySelector('.line-menumob-2')
 let menuMobile = document.querySelector('#menu-mobile')
 
 let body = document.querySelector('body')
+
 btnMenuMob.addEventListener('click', ()=>{
     line1.classList.toggle('ativo1')
     line2.classList.toggle('ativo2')
