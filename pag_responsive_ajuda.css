@@ -1,0 +1,60 @@
+@media(min-width: 1093px) {
+    header .btn-menu-mob{
+      display: none; 
+    } 
+}
+@media(max-width: 1092px) {
+      header .menu-desktop{
+        display: none;
+      } 
+      header .btn-menu-mob{
+        display: block;
+        position: relative;
+        z-index: 99999999999999999;
+      }
+      .logo:nth-of-type(1){
+        display: none;
+      }
+}
+@media(max-width: 540px) {
+   header .pagina-inicial h1{
+    font-size: 2em;
+    line-height: 1.2; 
+    font-weight: 300;
+    margin: 160px 0 20px; /* Margem superior aumentada para distância do cabeçalho */
+    display: inline-block; 
+    text-align: center; 
+    transition: .4s;
+    }
+    .pagina-inicial .text-inicial h1:hover{
+      background-color: #333;
+      color: #fff
+    }
+    .pagina-inicial .text-inicial h1 span {
+    font-weight: 600;
+    }
+    /* Estilo do artigo */
+    .itens-container {
+    background-color: transparent;
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin-top: 40px;
+    }
+    /* Estilo dos parágrafos */
+    .txt-itens p {
+    line-height: 1.9;
+    margin-bottom: 10px;
+    }
+    .txt-itens span {
+    font-weight: 600;
+    }
+    /* Configuração da lista */
+    .txt-itens ul {
+    padding-left: 20px;
+    margin-bottom: 12px;
+    }
+    .txt-itens ul li {
+    margin-bottom: 6px;
+    }
+}
